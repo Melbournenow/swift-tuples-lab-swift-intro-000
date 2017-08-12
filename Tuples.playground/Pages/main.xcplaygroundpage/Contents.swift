@@ -18,7 +18,7 @@
 
 
 
-
+var person: (String, Int) = ("Johnny", 32)
 
 
 
@@ -29,7 +29,7 @@
 // write your code here
 
 
-
+print("\(person.0) is \(person.1) years old")
 
 
 
@@ -41,7 +41,7 @@
 // write your code here
 
 
-
+person.1 = 33
 
 
 
@@ -52,7 +52,7 @@
  */
 // write your code here
 
-
+print("Happy \(person.1) birthday, \(person.0)!")
 
 
 
@@ -65,7 +65,7 @@
 // write your code here
 
 
-
+var someone:(String, Int) = ("Susan", 28)
 
 
 
@@ -75,7 +75,7 @@
  ### 6. Print out "<Name> is <Age> years old" for the `someone` variable you created in Question 5.
  */
 // write your code here
-
+print("\(someone.0) is \(someone.1) years old")
 
 
 
@@ -87,7 +87,7 @@
  */
 // write your code here
 
-
+someone.1 += 1
 
 
 
@@ -98,7 +98,7 @@
  */
 // write your code here
 
-
+print("Happy \(someone.1) birthday, \(someone.0)!")
 
 
 
@@ -111,7 +111,7 @@
 // write your code here
 
 
-
+let human = ("Adam", 21)
 
 
 
@@ -121,7 +121,7 @@
  ### 10. Can you change `human`'s age? Why or why not?
  */
 
-
+// cannot change human's age as it is a let constant
 
 
 
